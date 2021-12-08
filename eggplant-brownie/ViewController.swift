@@ -10,9 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var nomeTextField: UITextField!
+    @IBOutlet weak var felicidadeTextField: UITextField!
+    
     @IBAction func enviar(_ sender: Any) {
-        let nome = "Churros"
-        let felicidade = "5"
+        let nome = nomeTextField
+        let felicidade = felicidadeTextField
         print("Comi \(nome) e fiquei com felicidade \(felicidade).")
     }
 }
