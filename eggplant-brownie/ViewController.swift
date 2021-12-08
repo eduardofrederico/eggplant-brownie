@@ -11,7 +11,9 @@ class ViewController: UIViewController {
 
     
     @IBAction func enviar(_ sender: Any) {
-        print("alimento: --")
+        let nome = "Churros"
+        let felicidade = "5"
+        print("Comi \(nome) e fiquei com felicidade \(felicidade).")
     }
 }
 
